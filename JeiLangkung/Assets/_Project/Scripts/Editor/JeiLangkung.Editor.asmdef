@@ -1,0 +1,1 @@
+{"name":"JeiLangkung.Editor","references":["JeiLangkung.Runtime","Unity.TextMeshPro","UnityEngine.UI"],"includePlatforms":["Editor"]}

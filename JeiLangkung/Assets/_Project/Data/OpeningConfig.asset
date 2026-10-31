@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cea0a50ccece1a4da674a0b9493aefb, type: 3}
+  m_Name: OpeningConfig
+  m_EditorClassIdentifier: JeiLangkung.Runtime::JeiLangkung.Opening.OpeningConfig
+  pixelFont: {fileID: 11400000, guid: 178ec11c3d23f5247bfb9f69b1c68533, type: 2}
+  menuArt: {fileID: 2800000, guid: c99fd2c4734a8f24297a68e578826a32, type: 3}
+  kosArt: {fileID: 2800000, guid: 982ab02a233d9eb4db2059d72601575b, type: 3}
+  portraits:
+  - speaker: RAKA
+    image: {fileID: 2800000, guid: fd9d1055de786b6448b5902e4c75a6b7, type: 3}
+  - speaker: AYU
+    image: {fileID: 2800000, guid: 66c5ac13d4f665a439e351d89be3015e, type: 3}
+  - speaker: DIMAS
+    image: {fileID: 2800000, guid: e96d56e115e830d4380216407e4056d1, type: 3}
+  - speaker: NISA
+    image: {fileID: 2800000, guid: 64c3d56f2fcf8d5499d21c80860d620e, type: 3}
+  blackoutSeconds: 3
+  intro:
+  - speaker: RAKA
+    text: Jam sembilan lewat. Kalau bagian terakhir selesai, kita bisa pulang sebelum
+      terlalu malam.
+  - speaker: DIMAS
+    text: Data di laptop sudah masuk. Coba cocokkan lagi dengan catatan Ayu.
+  - speaker: NISA
+    text: Sampai jam berapa kah ini? WA-ku centang satu terus, ih.
+  aftermath:
+  - speaker: DIMAS
+    text: Satu gang ikut padam. Ini bukan cuma lampu kamar kita.
+  - speaker: NISA
+    text: "Tadi dekat sekali dindingnya\u2026 kenapa sekarang terasa jauh?"
+  - speaker: AYU
+    text: Nenekku bilang, kalau gelap begini jangan main yang aneh-aneh.
+  - speaker: RAKA
+    text: Tetap di sini dulu. Kita cari penerangan bersama.

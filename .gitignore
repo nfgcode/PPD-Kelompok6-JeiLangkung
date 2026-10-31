@@ -1,0 +1,70 @@
+# ============================================================
+# Kelompok 6 PPD — JeiLangkung
+# Root repo = PPD/, project Unity ada di subfolder JeiLangkung/
+# ============================================================
+
+# --- Claude Code (rules & skills lokal, tidak dibagikan) ---
+.claude/
+
+# --- File lokal yang bukan bagian project ---
+AnyDesk.exe
+~$*
+Thumbs.db
+desktop.ini
+
+# --- Hasil build & test ---
+/Builds/
+/test-results/
+test-results*.xml
+CodeCoverage/
+
+# --- Unity: folder cache yang dibuat ulang otomatis ---
+/JeiLangkung/[Ll]ibrary/
+/JeiLangkung/[Tt]emp/
+/JeiLangkung/[Oo]bj/
+/JeiLangkung/[Bb]uild/
+/JeiLangkung/[Bb]uilds/
+/JeiLangkung/[Ll]ogs/
+/JeiLangkung/[Uu]ser[Ss]ettings/
+/JeiLangkung/[Mm]emoryCaptures/
+/JeiLangkung/[Rr]ecordings/
+/JeiLangkung/[Aa]ssets/Plugins/Editor/JetBrains*
+/JeiLangkung/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/JeiLangkung/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/JeiLangkung/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- File IDE (dibuat ulang otomatis oleh Unity) ---
+.vs/
+.vscode/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# --- Crash report, paket & build mobile ---
+sysinfo.txt
+mono_crash.*
+*.unitypackage
+*.unitypackage.meta
+*.apk
+*.aab
+*.app
+crashlytics-build.properties
+.gradle/
+ExportedObj/
