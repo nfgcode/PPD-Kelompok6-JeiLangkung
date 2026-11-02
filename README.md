@@ -2,15 +2,14 @@
 
 Game horor ritual Jelangkung saat pemadaman listrik di Kilo 15, Balikpapan. Proyek mata kuliah Pemrograman Permainan Digital, Kelompok 6, ITK Balikpapan.
 
-Prototype saat ini: menu judul, Scene 1 "Kilo 15 Padam", dan Scene 2 "Datang Tak Dijemput" dengan lilin, mantra, bar genggaman boneka, dan jawaban YA/TIDAK. Cara bermain ada di [prototype pembuka](docs/playable-opening.md) dan [prototype Scene 2](docs/playable-ritual.md).
+Prototype saat ini: menu judul, Scene 1 "Kilo 15 Padam", dan Scene 2 "Datang Tak Dijemput" dengan lilin, mantra, bar genggaman boneka, dan jawaban YA/TIDAK. Kebutuhan produk, alur cerita, dan status fitur ada di [PRD.md](PRD.md).
 
 ## Isi repositori
 
 | Folder | Isi |
 |---|---|
 | `JeiLangkung/` | Project Unity. Buka folder ini di Unity Hub, bukan folder repositori. |
-| `docs/` | Konteks pengembangan, keputusan desain, log pengerjaan scene, lisensi aset |
-| `.agents/` | Panduan kerja untuk asisten kode |
+| `PRD.md` | Kebutuhan produk dan rencana kerja |
 | `tools/` | Skrip setup Git untuk Windows dan macOS |
 
 `Library/`, `Temp/`, `Logs/`, `UserSettings/`, file IDE, `Builds/`, dan `test-results/` tidak ikut repositori. Unity membuat ulang semuanya saat project dibuka.
@@ -98,7 +97,5 @@ Buka **Window > General > Test Runner** di Unity lalu jalankan EditMode dan Play
 
 ## Dokumen lanjutan
 
-- [Konteks pengembangan](docs/game-development.md)
-- [Keputusan desain](docs/design-decisions.md)
-- [Log pengerjaan scene](docs/scene-work-log.md)
-- [Lisensi aset](docs/asset-licenses.md)
+- [PRD](PRD.md): kebutuhan produk, alur cerita, status fitur, dan keputusan terbuka.
+- Lisensi font tersimpan bersama fontnya di `JeiLangkung/Assets/_Project/Art/Fonts/*-OFL.txt`.

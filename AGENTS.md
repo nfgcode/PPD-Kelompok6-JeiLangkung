@@ -20,7 +20,8 @@ Proyek mata kuliah Pemrograman Permainan Digital, Kelompok 6, ITK Balikpapan. Ga
 
 - `JeiLangkung/`: root proyek Unity. Jangan menjalankan Unity dengan `PPD/` sebagai root proyek.
 - `GDD_JeiLangkung.docx`: lokasi GDD saat audit awal. File tidak ditemukan lagi pada verifikasi akhir; periksa ketersediaan atau minta sumber terbaru bila detail aslinya diperlukan.
-- `docs/`: konteks pengembangan, keputusan desain, dan gambar pendukung.
+- [PRD](PRD.md): ringkasan kebutuhan produk yang dibagikan di GitHub.
+- `docs/`, `.agents/`, dan `.github/`: dokumen kerja lokal, diabaikan Git dan tidak ada di clone anggota lain. Jika tidak tersedia, pakai PRD sebagai acuan.
 - [Log pengerjaan scene](docs/scene-work-log.md): rencana dan catatan kemajuan per babak. Saat mengerjakan scene, perbarui status dan catatan hanya berdasarkan pekerjaan serta pemeriksaan yang benar-benar dilakukan.
 - `.agents/skills/`: skill proyek yang dapat dibaca bersama repositori.
 - `.claude/`: panduan lokal sebelumnya, diabaikan Git. Panduan bersama tidak boleh bergantung pada folder ini.
